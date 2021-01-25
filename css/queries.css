@@ -1,0 +1,391 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+Layout
+*/
+@media (min-height: 650px) {
+    header {
+        margin-bottom: 2.5rem;
+    }
+    .controls {
+        margin-bottom: 1.8rem;
+    }     
+}
+@media (min-height: 750px) {
+    header {
+        margin-bottom: 4rem;        
+    }
+    .controls {
+        margin-bottom: 4rem;
+    }    
+}
+@media (min-height: 750px) and (min-width: 1150px) {
+    header {
+        height: 17%;
+        padding-top: 2.5rem;
+    }
+    .controls, .results-wrapper, #tip {
+        max-width: 950px;        
+    }
+    .results-wrapper {
+        max-height: 300px;
+    }
+}
+@media (min-height: 800px) {
+    header {
+        margin-bottom: 6rem;
+    }
+    .controls {
+        margin-bottom: 4rem;
+    }    
+    #Home footer {
+        bottom: 1rem;
+    }   
+}
+
+
+
+/*
+Font Size
+*/
+
+@media (max-width: 830px) {
+    #tip {
+        font-size: 1.1rem;
+
+    }
+    #tip span {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 760px) {
+    #tip {
+        font-size: 1rem;
+    }
+    #tip span {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    #tip {
+        font-size: 0.9rem;
+    }
+    #tip span {
+        font-size: 1.1rem;
+    }
+    .bi-mic {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #Home {
+        font-size: 0.8rem;
+    }
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header h2 {
+        font-size: 1rem;        
+    }
+    #Reference h1 {
+        font-size: 1.7rem;
+    }
+    .results {
+        font-size: 1rem;
+    }
+    .bi-mic {
+        font-size: 1.55rem;
+    }    
+    .nav-down p, .nav-up p {     
+        font-size: 0.95rem;
+        font-weight: 500;    
+    }    
+    .fa-chevron-down, .fa-chevron-up {    
+        font-size: 1.2rem;    
+    }
+}
+
+@media (max-width: 470px) {
+    #Home {
+        font-size: 0.7rem;
+    }
+    header h1 {
+        font-size: 2.3rem;
+    }
+    header h2 {
+        font-size: 0.9rem;        
+    }
+    #tip {
+        font-size: 0.8rem;
+    }
+    #tip span {
+        font-size: 1rem;
+    }
+    .results {
+        font-size: 0.9rem;
+    }
+    .bi-mic {
+        font-size: 1.5rem;
+    }
+    .nav-down p, .nav-up p {     
+        font-size: 0.85rem;           
+    }    
+    .fa-chevron-down, .fa-chevron-up {    
+        font-size: 1rem;    
+    }
+}
+
+/*
+Header
+*/
+@media (max-width: 470px) {
+    header {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem
+    }
+}
+
+
+/* 
+Controls
+*/
+
+@media (max-width: 800px) {
+    .controls {
+        width: 80%;
+    }
+}
+
+/*
+OS Select
+*/
+
+@media (max-width: 640px) {
+    .os label {
+        font-size: 0.8rem;
+        max-width: 110px;
+        padding-left: 15px;
+        padding-right: 0px;
+             
+    }
+    .os label i {
+        font-size: 0.8rem;
+    }    
+}
+
+@media (max-width: 550px) {
+    .os label {     
+        max-width: 90px;   
+        font-size: 0.7rem;
+        padding-left: 10px;        
+    }
+    .os label i {
+        font-size: 0.7rem;
+    }   
+    .os label span {
+        margin-left: 4px;
+    } 
+}
+
+@media (max-width: 510px) {
+    .os label {
+        max-width: 75px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .os label span {
+        margin-left: 0;
+    }
+    .os label i {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);        
+        opacity: 0.15;
+        -webkit-filter: sepia(0.1);
+                filter: sepia(0.1);
+    }
+}
+
+@media (max-width: 420px) {
+    .os label {        
+        padding: 1px 10px;
+        line-height: 20px;        
+    }   
+}
+
+/*
+Toggle
+*/
+
+@media (max-width: 640px) {
+    .toggle-container {       
+        margin-bottom: 0.5rem;
+    }
+}
+@media (max-width: 600px) {
+    .toggle-container {
+        width: 35px;
+        height: 15px;
+        margin-bottom: 0.5rem;
+    }
+    .slider::before {
+        height: 11px;
+        width: 11px;
+        left: 2px;
+        bottom: 2px;
+    }
+    input[type="checkbox"]:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+            -ms-transform: translateX(20px);
+                transform: translateX(20px);
+    }
+    .toggle label {
+        margin-bottom: 0.2rem;
+    }
+}
+
+/*
+Results
+*/
+@media (max-width: 700px) {
+    .results-wrapper {
+        height: 70%;
+    }       
+}
+@media (max-width: 600px) {
+    .results-wrapper, #tip {
+        width: 85%;
+    }       
+}
+@media (max-width: 600px) {
+    .results-wrapper {
+        height: 60%;
+    }       
+}
+
+@media (max-width: 850px) {
+    .results {
+        padding-right: 0.5rem;
+    }    
+}
+@media (max-width: 650px) {
+    .results {
+        padding-right: 0.1rem;
+    }    
+}
+
+/*
+Commands
+*/
+
+@media (max-width: 600px) {
+    hr.solid {
+        border-top: 1.5px solid #E6CF10a1;
+    }
+}
+@media (max-width: 600px) {
+    hr.solid {
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .command-container {
+        width: 60%;
+    }
+}
+@media (max-width: 900px) {
+    .command-container {
+        width: 70%;        
+    }
+    .command-list {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 750px) {
+    .command-list {       
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 750px) {
+    .command-list {       
+        font-size: 0.8rem;
+        letter-spacing: 0;
+    }
+}
+@media (max-width: 650px) {
+    .command-container {
+        width: 80%;
+    }
+}
+@media (max-width: 550px) {
+    .command-container {
+        width: 85%;
+    }
+    
+}
+@media (max-width: 450px) {
+    .command-container {
+        width: 75%;        
+    }
+    .command-list {
+        -webkit-columns: 1;
+           -moz-columns: 1;
+                columns: 1;
+        line-height: 2.5;        
+    }
+}
+
+/*
+Footer
+*/
+
+@media (max-height: 600px) and (min-width: 700px) {
+    #Home footer, #Reference footer {
+        display: none;
+    }
+}
+
+@media (max-height: 545px) and (min-width: 600px) {
+    #Home footer, #Reference footer {
+        display: none;
+    }
+}
+
+@media (max-height: 480px) and (min-width: 470px) {
+    #Home footer, #Reference footer {
+        display: none;
+    }
+}
+
+@media (max-height: 435px) and (min-width: 300px) {
+    #Home footer, #Reference footer {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    #Reference footer {
+        bottom: 0rem;
+    }
+    #Reference footer p {
+        margin-bottom: 0.3rem;
+    }
+}
+
+@media (max-width: 250px) {
+    #Home footer, #Reference footer {
+        display: none;
+    }   
+}
