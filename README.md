@@ -6,7 +6,7 @@ A simple web interface that allows users to ask for Zoom meeting shortcuts.
 
 ## Description
 
-This is a side project derived from https://github.com/xunchuan-liu/HeyZoom. 
+This is a side project derived from https://github.com/xunchuan-liu/HeyZelda. 
 
 Due to Zoom's limited API and SDK provisions, our original project used a workaround to programmatically press keyboard shortcuts for controlling Zoom meeting functionality. 
 
